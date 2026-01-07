@@ -102,7 +102,7 @@ StarJug.Activated:Connect(function()
         end)
     end
     
-    speedTweenValue.Value = 35
+    speedTweenValue.Value = 22
     TweenService:Create(speedTweenValue, TweenInfo.new(70, Enum.EasingStyle.Linear), {
         Value = 0
     }):Play()
